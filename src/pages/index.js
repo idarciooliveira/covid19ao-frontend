@@ -15,7 +15,7 @@ export default function Home({ cases }) {
           <h1>
             COVID 19 Tracker <span> 🇦🇴 </span>
           </h1>
-          <h2>Ultima Actualizacao {cases?.updatedAt}</h2>
+          <h2>Ultima Actualização {cases?.updatedAt}</h2>
         </div>
         <div>
           <span>{cases?.today}</span>
@@ -39,7 +39,7 @@ export default function Home({ cases }) {
             <span>{cases?.deaths}</span>
           </div>
           <div className={styles.card}>
-            <h2>Total Recuperados</h2>
+            <h2>Total de Recuperados</h2>
             <span className={styles.recovery}>{cases?.recovered}</span>
           </div>
           <p>Powered By @IdarcioOliveira</p>
